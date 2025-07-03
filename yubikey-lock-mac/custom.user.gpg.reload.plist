@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   2 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+   3 <plist version="1.0">
+   4   <dict>
+   5     <key>Label</key>
+   6     <string>custom.user.gpg.reload</string>
+   7     <key>RunAtLoad</key>
+   8     <true/>
+   9     <key>KeepAlive</key>
+  10     <true/>
+  11     <key>ProgramArguments</key>
+  12     <array>
+  13         <string>/Users/mathias/Applications/gpg-agent-reload-on-lock</string>
+  14     </array>
+  15   </dict>
+  16 </plist>
