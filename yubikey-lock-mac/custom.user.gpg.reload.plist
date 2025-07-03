@@ -10,7 +10,7 @@
   10     <true/>
   11     <key>ProgramArguments</key>
   12     <array>
-  13         <string>/Users/mathias/Applications/gpg-agent-reload-on-lock</string>
+  13         <string>/Users/mathias/Apps/gpg-agent-reload-on-lock</string>
   14     </array>
   15   </dict>
   16 </plist>
