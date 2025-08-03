@@ -48,7 +48,7 @@ case "${1}" in
       read TOKEN
 
       # Write token to keychain
-      security add-generic-password -s "vault-token" -a "vault-cli/${KEY}" -w "${TOKEN}" > /dev/null 2>&1
+      security add-generic-password -U -s "vault-token" -a "vault-cli/${KEY}" -w "${TOKEN}" > /dev/null 2>&1
       exit 0
     ;;
 
