@@ -2,6 +2,8 @@
 
 # Based on official example from https://developer.hashicorp.com/vault/docs/commands/token-helper
 
+function write_error(){ >&2 echo $@; }
+
 function createHashKey {
 
   local key=""
