@@ -19,8 +19,8 @@ function createHashKey {
     exit 100
   fi
 
-  key=${key//"http://"/""}
-  key=${key//"https://"/""}
+  key=${key//http:\/\//""}
+  key=${key//https:\/\//""}
   key=${key//"."/"_"}
   key=${key//":"/"_"}
 
