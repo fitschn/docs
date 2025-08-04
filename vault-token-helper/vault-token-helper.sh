@@ -8,8 +8,10 @@ function createHashKey {
 
   local key=""
 
-  if [[ -z "${1}" ]] ; then key="${VAULT_ADDR}"
-  else                      key="${1}"
+  if [[ -z "${1}" ]]; then
+    key="${VAULT_ADDR}"
+  else
+    key="${1}"
   fi
 
   # We index the token according to the Vault server address by default so
